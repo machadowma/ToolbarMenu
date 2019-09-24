@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/setup"
+    android:title="Configurações" />
+
+    <item
+        android:id="@+id/star"
+        android:title="Estrela"
+        android:icon="@android:drawable/btn_star_big_on"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/email"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="E-mail"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/lock"
+        android:icon="@android:drawable/ic_lock_lock"
+        android:title="Bloquear"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/power_off"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Sair"
+        app:showAsAction="ifRoom" />
+
+</menu>
